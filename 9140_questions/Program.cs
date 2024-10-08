@@ -1,6 +1,5 @@
 ﻿using System;
 //using System.Collections.Generic;
-using Unit4New;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,7 +17,7 @@ namespace _9140_questions
         // return : Node<int>
         // example:
         // param : ->7,3,7,1,3 return : ->7,3,1
-        // hint: first write bool isExist(Node<int> first, int num)
+        // hint: first write bool isExist(Node<int> first, int num) - returns true if num is in chain that starts with first
 
         static Node<int> RemoveDuplicates(Node<int> first)
         {
@@ -59,7 +58,7 @@ namespace _9140_questions
         // example:
         // param : ->1,3,5,3,1 return : true
         // param : ->1,3,5,2,1 return : false
-        // hint : use Reverse(Node<int> first)
+        // hint : use Reverse and AreEqual
 
         static bool IsPalindrome(Node<int> first)
         {
